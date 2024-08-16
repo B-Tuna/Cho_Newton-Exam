@@ -1,0 +1,177 @@
+abody {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.header {
+    background-color: #fff;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+}
+.picture {
+    border: solid;
+	margin:  left;
+    width: 30px;
+    height: 30px;
+    border-radius: 20%;
+    color: #0fe016;
+    background-color: #0fe016;
+
+}
+.sell {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 0%;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    margin-left: 0%;
+}
+
+.navbar nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.navbar nav ul li {
+    margin: 0 15px;
+}
+
+.navbar nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.user-actions {
+    display: flex;
+    align-items: center;
+}
+
+.user-actions .login, .user-actions .cart {
+    text-decoration: none;
+    color: #333;
+    margin-left: 20px;
+   
+}
+
+.sub-navbar {
+    background-color: #0fe016;
+    padding: 10px 20px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.category-select select, .search-bar input, .search-bar button {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.promotions span {
+    margin-right: 20px;
+}
+
+.breadcrumb {
+    margin: 20px;
+    font-size: 14px;
+}
+
+.breadcrumb a {
+    text-decoration: none;
+    color: #0fe016;
+}
+
+.login-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.login-image img {
+    max-width: 400px;
+}
+
+.login-form {
+    max-width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-left: 50px;
+}
+
+.login-form h2 {
+    color: #0fe016;
+    margin-bottom: 10px;
+}
+
+.login-form p {
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-group input {
+  
+    border-radius: 5px;
+    font-size: 14px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.forgot-password {
+    text-align: right;
+}
+
+.forgot-password a {
+    text-decoration: none;
+    color: #0fe016;
+}
+
+.login-btn {
+   
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    background-color: #0fe016;
+    color: white;
+}
+
+.signup-link {
+    margin-top: 15px;
+}
+
+.signup-link a {
+    color: #0fe016;
+    text-decoration: none;
+}
